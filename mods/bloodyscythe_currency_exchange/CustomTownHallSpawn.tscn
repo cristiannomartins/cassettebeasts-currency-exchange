@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=37 format=2]
 
 [ext_resource path="res://nodes/actions/Cutscene.gd" type="Script" id=1]
 [ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/plastic_to_metal.tres" type="Resource" id=2]
@@ -25,6 +25,18 @@
 [ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_wood.tres" type="Resource" id=23]
 [ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/pulp_to_metal.tres" type="Resource" id=24]
 [ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_wheat.tres" type="Resource" id=25]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_jelly.tres" type="Resource" id=26]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_air.tres" type="Resource" id=27]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_astral.tres" type="Resource" id=28]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_beast.tres" type="Resource" id=29]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_earth.tres" type="Resource" id=30]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_fire.tres" type="Resource" id=31]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_ice.tres" type="Resource" id=32]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_lightning.tres" type="Resource" id=33]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_plant.tres" type="Resource" id=34]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_plastic.tres" type="Resource" id=35]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_poison.tres" type="Resource" id=36]
+[ext_resource path="res://mods/bloodyscythe_currency_exchange/data/exchanges/currency/metal_to_tape_water.tres" type="Resource" id=37]
 
 [node name="CustomTownHallSpawn" type="Spatial"]
 
@@ -41,5 +53,5 @@ music = ExtResource( 7 )
 [node name="ExchangeMenuAction" type="Node" parent="VendingMachine1/Cutscene/ChangeMusicAction"]
 script = ExtResource( 3 )
 title = "Currency Exchange"
-exchanges = [ ExtResource( 21 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 23 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 24 ), ExtResource( 14 ), ExtResource( 19 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 18 ), ExtResource( 9 ), ExtResource( 16 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 22 ), ExtResource( 20 ) ]
+exchanges = [ ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 24 ), ExtResource( 14 ), ExtResource( 19 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 18 ), ExtResource( 9 ), ExtResource( 16 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 22 ), ExtResource( 20 ) ]
 discountable = false
